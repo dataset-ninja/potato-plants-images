@@ -1,6 +1,6 @@
-Dataset **Potato Plants Images** can be downloaded in Supervisely format:
+Dataset **Potato Plants Images** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/f/h/02/H8lXlzwrbM31Kzv69G94qAhbKtFK3QOtt4WkmTudCOegmeEyDsb7LueSkMGkpREuOFllzPBp49Ray0jCKkO83Aq7WaYho0LS8RHCuc4R7qJ7k4W7HyczCX8QuPEp.tar)
+ [Download](Set 'HIDE_DATASET=False' to generate download link)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -13,4 +13,6 @@ import dataset_tools as dtools
 
 dtools.download(dataset='Potato Plants Images', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://www.webpages.uidaho.edu/vakanski/Multispectral_Images_Dataset.html)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://www.webpages.uidaho.edu/vakanski/Multispectral_Images_Dataset.html).
